@@ -14,7 +14,8 @@
   box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
   width: 100%;
   align-items: center;
-  padding: 20px;
+  height: 100px;
+ 
 }
 
 .content {
@@ -55,4 +56,62 @@ span {
   display: flex;
 
   align-items: center;
+}
+.got {
+  font-size: 95px;
+  font-weight: 800;
+  background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-transform: uppercase;
+}
+.main-con {
+  display: flex;
+
+  align-items: center;
+  background-image: url(images/Group\ 14.png);
+  background-repeat: no-repeat;
+  background-size: 620px 800px;
+  justify-content: space-around;
+}
+.btn1 {
+  padding: 15px 25px;
+  border: none;
+  background-color: #ff42a5;
+  border-radius: 50px;
+  cursor: pointer;
+}
+.btn2 {
+  padding: 15px 25px;
+  border: none;
+  background-color: #4ec5f7;
+  border-radius: 50px;
+  cursor: pointer;
+}
+.h-title{
+    
+    color: #0B0223;
+text-align: center;
+
+font-size: 48px;
+
+font-weight: 600;
+
+text-transform: uppercase;
+}
+
+
+
+
+@media screen and (max-width: 768px) {
+
+.menu{
+
+
+
+}
+
+
+
 }
