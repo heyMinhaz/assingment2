@@ -100,6 +100,9 @@
   text-transform: uppercase;
 }
 
+
+
+
 .card{
 
 margin-top: 50px;
@@ -124,6 +127,23 @@ padding: 50px 100px 50px 100px;
 width: 250px;
 height: 300px;
 cursor: pointer;
+
+
+}
+.playbtn{
+
+position: absolute;
+width: 80px;
+height: 80px;
+padding: 110px 85px;
+
+
+}
+
+.card-img:hover{
+
+border: 2px solid #F948B2;
+border-radius: 20px;
 
 
 }
