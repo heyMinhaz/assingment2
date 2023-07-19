@@ -118,7 +118,9 @@ text-align: center;
 
 display: grid;
 grid-template-columns: repeat(4,1fr);
-padding: 50px 100px 50px 100px;
+padding: 50px 200px 50px 150px;
+gap: 30px;
+
 
 }
 
@@ -137,15 +139,35 @@ width: 80px;
 height: 80px;
 padding: 110px 85px;
 
+opacity: .6;
+border-radius: 10px;
+cursor: pointer;
+
+}
+.ply:hover .playbtn{
+  background-color: #534C64;
+visibility: visible;
+border: 1px solid #F948B2;
 
 }
 
+.card-card:hover .card-img{
+  background-color:  #534C64;
+  visibility: visible;
+  border: 2px solid #F948B2;
+  border-radius: 15px;
+
+
+}
+
+
+
 .card-img:hover{
 
-border: 2px solid #F948B2;
-border-radius: 20px;
-
-
+  opacity: .9;
+  border-radius: 15px;
+  cursor: pointer;
+  
 }
 
 
@@ -330,7 +352,7 @@ list-style: none;
 gap: 30px;
 justify-content: center;
 color: #FFF;
-
+cursor: pointer;
 
 font-size: 14px;
 
@@ -338,7 +360,7 @@ font-size: 14px;
 
 }
 .icons{
-
+  cursor: pointer;
 display: flex;
 justify-content: center;
 gap: 30px;
@@ -351,7 +373,7 @@ gap: 30px;
     gap: 30px;
     justify-content: center;
     color: rgba(255, 255, 255, 0.60);
-
+    cursor: pointer;
 font-size: 14px;
 
 
