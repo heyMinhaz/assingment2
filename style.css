@@ -234,44 +234,59 @@ height: 500px;
     margin-left: 400px;
 
 }
+.item{
 
-.action-start{
-margin-top: 100px;
-display: grid;
-grid-template-columns: repeat(5, 1fr);
-padding: 50px;
-background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+    padding: 50px;
+    margin-top: 50px;
 
 }
-.action1{
 
-display: flex;
-align-items: center;
-padding: 5px 15px;
 
-border-radius: 50px;
-background: #FFF;
-cursor: pointer;
+.item5  {
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    margin: 40px 180px;
+
+ 
+}
+
+.item4{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    margin: 10px 220px;
+}
+.item-img{
+    display: flex;
+    align-items: center;
+    
+}
+.item-img img{
+    width: 30px;
+height: 30px;
+margin: 5px;
 
 }
-.action1:hover{
+.item-img:hover{
 
-border: 1px solid #F948B2;
+    border: 1px solid #F948B2;
+    border-radius: 30px;
+    
+    }
+    .item-img img:hover{
+    
+    color: #F948B2;
+    
+    }
+    .item-img p:hover{
 
-}
-.acpera:hover{
+        color: #F948B2;
 
-color: #F948B2;
+    }
 
-}
-.acpera{
-
-padding-left: 15px;
-
-}
 .content1 {
     display: flex;
-  align-items: center;
+  justify-content: center;
   }
 .game2{
 
@@ -285,11 +300,50 @@ font-weight: 700;
     text-align: center;
     font-size: 35px;
     font-weight: 700;
-    color: #0B0223;
+    color: #FFF;
 
 }
+.list{
+
+display: flex;
+list-style: none;
+gap: 30px;
+justify-content: center;
+color: #FFF;
 
 
+font-size: 14px;
+
+
+
+}
+.icons{
+
+display: flex;
+justify-content: center;
+gap: 30px;
+
+}
+.list5{
+
+    display: flex;
+    list-style: none;
+    gap: 30px;
+    justify-content: center;
+    color: rgba(255, 255, 255, 0.60);
+
+font-size: 14px;
+
+
+
+}
+.end{
+
+    background: #0B0223;
+    padding: 100px;
+
+
+}
 
 
 
