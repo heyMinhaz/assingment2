@@ -150,13 +150,13 @@ cursor: pointer;
 
 
 .ply:hover .playbtn{
-  background-color: #534C64;
+  background-color: #403c4a;
 visibility: visible;
 border: 1px solid #F948B2;
 
 }
 
-.card-card:hover .card-img{
+.hoverimg:hover .card-img{
   background-color:  #534C64;
   visibility: visible;
   border: 2px solid #F948B2;
@@ -172,6 +172,7 @@ border: 1px solid #F948B2;
   opacity: .9;
   border-radius: 15px;
   cursor: pointer;
+  border: 3px solid #F948B2;
   
 }
 
