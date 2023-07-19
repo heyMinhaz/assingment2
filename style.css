@@ -28,7 +28,7 @@
   padding-right: 50px;
 }
 
-span {
+.game {
   text-align: center;
   font-size: 35px;
   font-weight: 700;
@@ -123,8 +123,12 @@ padding: 50px 100px 50px 100px;
 
 width: 250px;
 height: 300px;
+cursor: pointer;
+
 
 }
+
+
 .pera{
 
 width: 250px;
@@ -170,11 +174,128 @@ color: #0B0223;
     font-weight: 400;
     line-height: 30px; 
 }
+.floting{
+
+display: flex;
+
+align-items: center;
+
+
+
+}
+
+.text-title{
+
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 60px; 
+
+}
+.play{
+
+color: #F948B2;
+
+}
+.text-pera{
+
+    color: #534C64;
+       font-size: 18/px;
+      text-align: right;
+    font-weight: 400;
+    line-height: 30px; 
+
+}
+
+.text-con{
+
+    text-align: center;
+   margin-left: 80px;
+
+
+}
+.upimg{
+
+margin-top: -190px;
+margin-left: -90px;
+width: 200px;
+height: 250px;
+
+}
+.main-img{
+
+
+width: 430px;
+height: 500px;
+
+}
+
+.text-img{
+
+    margin-left: 400px;
+
+}
+
+.action-start{
+margin-top: 100px;
+display: grid;
+grid-template-columns: repeat(5, 1fr);
+padding: 50px;
+background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+
+}
+.action1{
+
+display: flex;
+align-items: center;
+padding: 5px 15px;
+
+border-radius: 50px;
+background: #FFF;
+cursor: pointer;
+
+}
+.action1:hover{
+
+border: 1px solid #F948B2;
+
+}
+.acpera:hover{
+
+color: #F948B2;
+
+}
+.acpera{
+
+padding-left: 15px;
+
+}
+.content1 {
+    display: flex;
+  align-items: center;
+  }
+.game2{
+
+color: #F948B2;
+font-size: 35px;
+font-weight: 700;
+
+}
+.ame{
+
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+    color: #0B0223;
+
+}
 
 
 
 
 
+
+
+/* responsive */
 
 @media screen and (max-width: 576px) {
   .contaner {
