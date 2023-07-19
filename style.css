@@ -45,6 +45,8 @@
   width: 50%;
   object-fit: cover;
   margin-left: 10px;
+  padding-right: 15px;
+
 }
 .icon {
   border-radius: 8px;
@@ -122,6 +124,7 @@ padding: 50px 200px 50px 150px;
 gap: 30px;
 
 
+
 }
 
 .card-img{
@@ -144,6 +147,8 @@ border-radius: 10px;
 cursor: pointer;
 
 }
+
+
 .ply:hover .playbtn{
   background-color: #534C64;
 visibility: visible;
@@ -335,6 +340,7 @@ margin: 5px;
 color: #F948B2;
 font-size: 35px;
 font-weight: 700;
+padding-left: 15px;
 
 }
 .ame{
